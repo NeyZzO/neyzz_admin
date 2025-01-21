@@ -37,6 +37,6 @@ In the meantime, here's an overview of all the features I want to implement:
   - [ ] Customization (automations, auto-expiring punishments)
   - [ ] Customizable punishment messages
   - [ ] Customizable punishment presets
-- [ ] Logging settings
+- [ ] Logging system
 
 At the time, these are the only features I'm thinking about, you can join me on my [discord](https://discord.gg/6pR4jDhTcb)
