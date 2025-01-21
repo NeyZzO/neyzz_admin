@@ -1,0 +1,52 @@
+.ticket-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 16px 0;
+    background-color: var(--background-paper);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.ticket-chip {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+
+.ticket-info {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.open-details-button {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+.page-background {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #2196f3 30%, #21cbf3 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
