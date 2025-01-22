@@ -7,7 +7,9 @@ import {
   ErrorOutline as ErrorOutlineIcon,
   WarningAmber as WarningAmberIcon,
   OpenInNew as OpenInNewIcon,
-} from "@mui/icons-material"
+} from "@mui/icons-material";
+import { useTranslation } from "react-i18next";
+
 import "./Ticket.scss"
 
 
@@ -20,7 +22,8 @@ export default function SupportTicket({
   dateTime,
   initialState = "opened",
 }) {
-  const [state, setState] = useState(initialState)
+  const [state, setState] = useState(initialState);
+  const { t } = useTranslation();
 
   const handleAccept = () => {
     setState("active")
@@ -38,15 +41,7 @@ export default function SupportTicket({
   }
 
   const getLocalizedName = (state) => {
-    switch (state) {
-        case 'opened':
-            return "Ouvert";
-        case "closed":
-            return "Fermé";
-        case "active":
-            return "Actif";
-
-    }
+    return t(`ticket.state.${state}`)
   }
 
   const getStateIcon = (state) => {

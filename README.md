@@ -38,5 +38,6 @@ In the meantime, here's an overview of all the features I want to implement:
   - [ ] Customizable punishment messages
   - [ ] Customizable punishment presets
 - [ ] Logging system
+- [ ] Report system
 
 At the time, these are the only features I'm thinking about, you can join me on my [discord](https://discord.gg/6pR4jDhTcb)

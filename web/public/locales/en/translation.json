@@ -1,0 +1,10 @@
+{
+    "ticket": {
+        "name": "Report",
+        "state": {
+            "opened": "Opened",
+            "closed": "Closed",
+            "active": "Active"
+        }
+    }
+}
